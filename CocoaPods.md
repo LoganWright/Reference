@@ -2,6 +2,7 @@
 
 - <a href="http://guides.cocoapods.org/making/making-a-cocoapod.html">CocoaPods Making a Pod</a>
 - <a href="http://guides.cocoapods.org/making/getting-setup-with-trunk">Getting Set Up w/ Trunk</a>
+- <a href="http://guides.cocoapods.org/syntax/podspec.html">Podspec Syntax Reference</a>
 
 ####Step 1. Create `.podspec` file
 
