@@ -1,4 +1,4 @@
-###Adding CocoaPods To Existing Repository
+###Making an Existing Repository Available on CocoaPods 
 
 - <a href="http://guides.cocoapods.org/making/making-a-cocoapod.html">CocoaPods Making a Pod</a>
 - <a href="http://guides.cocoapods.org/making/getting-setup-with-trunk">Getting Set Up w/ Trunk</a>
@@ -79,6 +79,68 @@ $ pod trunk push <#yourPodspec#>.podspec
 ####Step 7: Profit
 
 Or don't, cuz this is open-source!
+
+
+###Using CocoaPods in a Project
+
+####Step 1: Create Project 
+
+Create your project if you haven't already
+
+####Step 2: Create Podfile
+
+In Terminal
+
+#####1:
+```
+cd path/to/project
+```
+
+#####2:
+
+```
+subl Podfile
+```
+
+Assuming you have sublime command line tools installed in your terminal, this will create a new file named 'Podfile'.  You can look at how to install sublime command line tools <a href="http://www.sublimetext.com/docs/2/osx_command_line.html">here</a>.
+
+####Step 3: Add dependencies to your podfile
+
+Basic Template Example
+
+```
+platform :ios, '6.0'
+
+pod 'SVProgressHUD'
+pod 'AFNetworking'
+pod 'SimpleCam'
+```
+
+etc ...
+
+####Step 4: Add .gitignore
+
+Add this to make sure your that everything in your `Pods/` folder is not included in your repository
+
+```
+Pods/
+```
+
+####Step 5: In Command Line
+
+```
+pod install
+```
+
+####Step 6: Close your project if it is open and from now on use `<#YourProjectName#>.xcworkspace`
+
+If you don't, there will be errors.
+
+
+
+
+
+
 
 
 
