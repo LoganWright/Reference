@@ -1,3 +1,5 @@
+Good Practice: http://pcottle.github.io/learnGitBranching/
+
 `git commit` - make a commit on the currently checked out branch
 
 ###New Branch
