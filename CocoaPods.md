@@ -120,6 +120,10 @@ etc ...
 
 ####Step 4: Add .gitignore
 
+```
+subl .gitignore
+```
+
 Add this to make sure your that everything in your `Pods/` folder is not included in your repository
 
 ```
