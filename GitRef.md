@@ -48,6 +48,16 @@ You can directly reassign a branch to a commit with the `-f` option, something l
 
 `git branch -f master HEAD~3`
 
+###Force Push
+
+If you've rebased your feature branch and want to push it to master, you'd force push
+
+`git push origin <#featureBranchName#> -f`
+
+If checked out, this might work. 
+
+`git push -f`
+
 ###Reversing Changes
 
 `git revert`
