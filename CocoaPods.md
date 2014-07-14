@@ -163,6 +163,8 @@ Pods/
 
 ####Step 5: In Command Line
 
+Close Xcode project if it is open
+
 ```
 pod install
 ```
