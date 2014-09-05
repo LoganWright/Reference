@@ -173,7 +173,12 @@ pod install
 
 If you don't, there will be errors.
 
+#Swift
+If you're using Swift, add <#yourProj#>-Bridging-Header.h
 
+#import <Pod/Pod.h> // Your pod
+
+In build settings connect with "Objective C Bridging Header"
 
 
 
