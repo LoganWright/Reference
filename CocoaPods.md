@@ -4,13 +4,13 @@
 - <a href="http://guides.cocoapods.org/making/getting-setup-with-trunk">Getting Set Up w/ Trunk</a>
 - <a href="http://guides.cocoapods.org/syntax/podspec.html">Podspec Syntax Reference</a>
 
-####Step 1. Create `.podspec` file
+####Step 1. Create `<#YourProject#>.podspec` file
 
 <b> Basic Template </b>
 ```
 Pod::Spec.new do |s|
   s.name             = "SimpleCam"
-  s.version          = "0.1.0"
+  s.version          = "<#Version Number ie: 0.1.0#>" 
   s.summary          = "<#summary#>"
   s.description      = "<#description#>"
   s.homepage         = "http://<#homepage#>.com"
@@ -50,15 +50,15 @@ CocoaPods requires a license file, make sure one is included
 ####Step 3: Prep Git For Release
 
 ```
-$ git add -A && git commit -m "Release 0.0.1"
-$ git tag '0.0.1'
+$ git add -A && git commit -m "Release 0.0.1" // If you need to commit, etc.
+$ git tag '<#version number#> ie: 0.1.0#>' // Match above
 $ git push --tags
 ```
 
 ####Step 4: Configure Trunk (if necessary)
 
 ```
-$ pod trunk register yourName@cocoapods.org 'Your Name' --description='macbook air'
+$ pod trunk register <#yourEmail#>@<#emailService#>.org '<#First Last(name)#>' --description='<#Computer Description: Work MacbookPro#>'
 ```
 
 This will send an email to authorize your computer.  Accept it.
@@ -66,7 +66,7 @@ This will send an email to authorize your computer.  Accept it.
 ####Step 5: Test PodSpec
 
 ```
-$ cd path/to/project
+$ cd path/to/project // if haven't already
 $ pod lib lint
 ```
 
