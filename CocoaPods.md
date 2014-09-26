@@ -99,7 +99,7 @@ cd path/to/project
 #####2:
 
 ```
-subl Podfile
+atom Podfile
 ```
 
 Assuming you have sublime command line tools installed in your terminal, this will create a new file named 'Podfile'.  You can look at how to install sublime command line tools <a href="http://www.sublimetext.com/docs/2/osx_command_line.html">here</a>.
