@@ -109,11 +109,13 @@ Assuming you have sublime command line tools installed in your terminal, this wi
 Basic Template Example
 
 ```
-platform :ios, '6.0'
+source 'https://github.com/CocoaPods/Specs.git'
 
+platform :ios, '7.1'
+
+pod 'SimpleCam', '~> 0.1.5'
 pod 'SVProgressHUD'
 pod 'AFNetworking'
-pod 'SimpleCam'
 ```
 
 etc ...
