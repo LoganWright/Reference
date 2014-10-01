@@ -119,6 +119,12 @@ pod 'AFNetworking'
 ```
 
 etc ...
+####*EXISTING WORKSPACES*
+
+Integrating CocoaPods with an existing workspace requires one extra line in your Podfile. Simply specify the .xcworkspace root filename like so:
+```
+workspace 'MyWorkspace'
+```
 
 ####Step 4: Add .gitignore
 
