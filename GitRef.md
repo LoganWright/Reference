@@ -33,6 +33,8 @@ Use `git rebase -i [differentBranchName]` -- walks through each commit of curren
 
 `git log` displays hashes
 
+`git log --oneline` more concise
+
 `git checkout [specificCommitHash]` -- checks out specific hash
 
 `git checkout [branchName]^` -- moves up one commit (parent)
@@ -69,6 +71,37 @@ If checked out, this might work.
 Resetting is great for local branches on your own machine, its method of rewriting history doesn't work for remote branches that others are using.
 
 In order to reverse changes and share those reversed changes with others, use `git revert`
+
+##Rename branch:
+
+`git branch -m <oldname> <newname>`
+
+If you want to rename the current branch, you can simply do:
+
+`git branch -m <newname>`
+
+##Stash
+
+`git stash`
+- stash current working directory
+
+`git stash apply`
+- apply the last created stash
+
+`git stash save "my_stash"`
+- save stash with name
+
+`git stash apply stash^{/my_sta}`
+- apply stash with name.  subscribes to regex, so my_sta would likely find my_stash.  In general, I type the entire name.
+
+`git stash list`
+- List all stashes
+
+`git stash pop stash@{n}`
+- apply stash at index n and remove from stash stack
+
+`git stash apply stash@{n}`
+- apply stash at index n and keep in stash stack
 
 
 ###Adding a GitIgnore
