@@ -1,3 +1,5 @@
+Reference here: https://developer.apple.com/library/mac/documentation/DeveloperTools/Reference/XcodeBuildSettingRef/1-Build_Setting_Reference/build_setting_ref.html
+
 #Sure
 `$(PRODUCT_NAME)` - Product Name
 
