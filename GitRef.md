@@ -145,7 +145,7 @@ Add a tag
 
 Add a tag to an older commit
 
-`git tag -a <#tagName#> -m '<#description#>' <#commitSHAHRef`
+`git tag -a <#tagName#> -m "<#description#>" <#commitSHAHRef`
 
   example: `git tag -a v1.2 -m 'version 1.2' 9fceb02`
 
