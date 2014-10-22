@@ -137,3 +137,17 @@ DerivedData
 
 From <a href="https://github.com/github/gitignore/blob/master/Objective-C.gitignore">here!</a>
 
+#Tags
+
+Add a tag
+
+`git tag -a <#tagName#> -m "<#description#>"`
+
+Push a tag
+
+`git push origin <#tagName#>`
+
+List Tags
+
+`git tag`
+
