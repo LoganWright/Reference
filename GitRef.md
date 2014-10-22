@@ -143,11 +143,25 @@ Add a tag
 
 `git tag -a <#tagName#> -m "<#description#>"`
 
+Add a tag to an older commit
+
+`git tag -a <#tagName#> -m '<#description#>' <#commitSHAHRef`
+
+  example: `git tag -a v1.2 -m 'version 1.2' 9fceb02`
+
 Push a tag
 
 `git push origin <#tagName#>`
 
+Push all tags
+
+`git push origin --tags`
+
 List Tags
 
 `git tag`
+
+See tagged commit
+
+`git show <#tagName#>`
 
