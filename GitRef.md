@@ -139,6 +139,8 @@ From <a href="https://github.com/github/gitignore/blob/master/Objective-C.gitign
 
 #Tags
 
+Ref: <a href="http://git-scm.com/book/en/Git-Basics-Tagging">http://git-scm.com/book/en/Git-Basics-Tagging</a>
+
 Add a tag
 
 `git tag -a <#tagName#> -m "<#description#>"`
