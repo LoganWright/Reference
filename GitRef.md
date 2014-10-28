@@ -167,3 +167,10 @@ See tagged commit
 
 `git show <#tagName#>`
 
+#Submodules
+
+-- DON'T USE SUBMODULES IF AT ALL POSSIBLE!!!!!!!!
+
+Update and Init
+
+`git submodule update --init --recursive`
