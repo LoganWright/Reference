@@ -72,6 +72,8 @@ Resetting is great for local branches on your own machine, its method of rewriti
 
 In order to reverse changes and share those reversed changes with others, use `git revert`
 
+`git reset --hard <#commitSHAH#>` Reset to that commit
+
 ##Rename branch:
 
 `git branch -m <oldname> <newname>`
