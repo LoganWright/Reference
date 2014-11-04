@@ -169,6 +169,20 @@ See tagged commit
 
 `git show <#tagName#>`
 
+#Ignore Local Changes To Specific File
+
+There are some cases where you want to ignore changes to a specific file.  For example, I have a project that has safeguards preventing non authorized users from getting to a certain part of the application.  I need to access this part of the application, so I remove these safeguards.  I never want to push this file up, and I don't want to add it to the .gitignore, so I can use --assume-unchanged
+
+`git update-index --assume-unchanged Path/To/File.m`
+
+To list all files currently in assume-unchanged mode:
+
+`git ls-files -v | grep -e "^[hsmrck]"`
+
+To remove all files from assume-unchanged mode:
+
+`git --no-assume-unchanged`
+
 #Submodules
 
 -- DON'T USE SUBMODULES IF AT ALL POSSIBLE!!!!!!!!
