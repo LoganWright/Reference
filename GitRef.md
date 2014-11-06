@@ -193,6 +193,6 @@ Update and Init
 
 #Rebase
 
-`git rebase <#startShah#> <#endShah#> --onto <#target#>`
+`git rebase <#startShah#> <#endShah#> --onto <#target#> -i`
 
 Commits start one AFTER startShah
