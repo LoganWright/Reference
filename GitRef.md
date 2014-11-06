@@ -190,3 +190,9 @@ To remove all files from assume-unchanged mode:
 Update and Init
 
 `git submodule update --init --recursive`
+
+#Rebase
+
+`git rebase <#startShah#> <#endShah#> --onto <#target#>`
+
+Commits start one AFTER startShah
