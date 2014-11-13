@@ -181,7 +181,11 @@ To list all files currently in assume-unchanged mode:
 
 To remove all files from assume-unchanged mode:
 
-`git --no-assume-unchanged`
+`git update-index --no-assume-unchanged`
+
+-- or --
+
+`git update-index --no-assume-unchanged Path/To/File.m`
 
 #Submodules
 
