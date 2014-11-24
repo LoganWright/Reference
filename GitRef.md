@@ -62,11 +62,11 @@ If checked out, this might work.
 
 ###Reversing Changes
 
-`git revert`
-
-`git reset` -- resets as if commit had never been made in the first place.
+`git reset .` -- resets staging to working copy.  "opposite" of `git add .`
 
 `git reset HEAD~1` -- resets last commit at current head
+
+`git reset --soft HEAD~1` -- Resets last commit and moves changes into working copy
 
 Resetting is great for local branches on your own machine, its method of rewriting history doesn't work for remote branches that others are using.
 
