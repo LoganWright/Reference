@@ -127,7 +127,7 @@ pod 'AFNetworking'
 
 > If you already have a workspace created, you'll need to specify this in your podfile by adding: `workspace 'MyWorkspace'`
 
-##Importing Dependencies
+##Installing Dependencies
 
 Now we're going to integrate our libraries into the Xcode project.  
 
@@ -137,6 +137,19 @@ Now we're going to integrate our libraries into the Xcode project.
 - Enter command `pod install`
 > Wait for this to finish, depending on the requirements of the `Podfile`, particularly with new projects, this may take a minute or two.  Just leave it.
 
+When cocoapods is done installing libraries, you will get a terminal readout that says:
+
+>[!] From now on use `<#Your Project#>.xcworkspace`.
+
+Follow this instruction and henceforth, use the workspace instead of your project.
+
+##Importing Libraries
+
+Import cocoapod libraries like frameworks
+
+`#import <SomeCocoaPod/SomeCocoaPod.h>`
+
+##Using Cocoapods Libraries
 ##Advanced Podfile (in progress)
 
 More on the Podfile: http://guides.cocoapods.org/using/the-podfile.html
