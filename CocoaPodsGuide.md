@@ -150,6 +150,3 @@ Occasionally, imported libraries will have errors  or warnings generated in Xcod
 To prevent warnings on a library specific basis, you can use the following syntax:
 
 `pod 'SomePodWithWarnings', :inhibit_warnings => true`
-
-
-##I am using a workspace
