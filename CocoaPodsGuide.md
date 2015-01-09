@@ -143,13 +143,12 @@ When cocoapods is done installing libraries, you will get a terminal readout tha
 
 Follow this instruction and henceforth, use the workspace instead of your project.
 
-##Importing Libraries
+##Importing And Using Libraries
 
 Import cocoapod libraries like frameworks
 
 `#import <SomeCocoaPod/SomeCocoaPod.h>`
 
-##Using Cocoapods Libraries
 ##Advanced Podfile (in progress)
 
 More on the Podfile: http://guides.cocoapods.org/using/the-podfile.html
