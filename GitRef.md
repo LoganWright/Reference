@@ -195,6 +195,10 @@ Update and Init
 
 `git submodule update --init --recursive`
 
+Remove submodule
+
+`git rm path/to/submodule`
+
 #Rebase
 
 `git rebase <#startShah#> <#endShah#> --onto <#target#> -i`
