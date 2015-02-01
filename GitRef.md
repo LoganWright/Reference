@@ -165,6 +165,11 @@ List Tags
 
 `git tag`
 
+Remove tags
+
+git tag -d 12345
+git push origin :refs/tags/12345
+
 See tagged commit
 
 `git show <#tagName#>`
