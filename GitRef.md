@@ -171,6 +171,10 @@ Remove tags
 
 `git push origin :refs/tags/12345`
 
+push Tags
+
+`git push --tags`
+
 See tagged commit
 
 `git show <#tagName#>`
