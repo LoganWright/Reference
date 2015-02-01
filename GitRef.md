@@ -167,8 +167,9 @@ List Tags
 
 Remove tags
 
-git tag -d 12345
-git push origin :refs/tags/12345
+`git tag -d 12345`
+
+`git push origin :refs/tags/12345`
 
 See tagged commit
 
